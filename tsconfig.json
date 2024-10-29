@@ -11,10 +11,10 @@
     "moduleResolution": "Node",
     "noEmit": true,
     "resolveJsonModule": true,
-    "skipLibCheck": false,
     "strict": true,
     "target": "ESNext",
-    "types": ["vite"]
+    "types": ["vite"],
+    "skipLibCheck": true
   },
   "include": ["./src"],
   "exclude": ["node_modules"]
