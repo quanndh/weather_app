@@ -29,7 +29,7 @@ const TemperatureGroup: React.FC<Props> = ({ forecast }) => {
         <div className="text-xl font-semibold">
           Feels like {forecast.main.feels_like}°
         </div>
-        <div className="text-3xl font-semibold">
+        <div className="text-3xl font-semibold text-center">
           <img src={openweatherService.getIcon(forecast.weather[0].icon)} />
           {forecast.weather[0].main}
         </div>
